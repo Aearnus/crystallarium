@@ -1,0 +1,5 @@
+cro: 1
+id: crystallarium
+name: Crystallarium Server
+entrypoint: bin/crystallarium.p6
+

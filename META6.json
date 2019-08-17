@@ -1,0 +1,19 @@
+{
+    "perl"          : "6.*",
+    "name"          : "crystallarium",
+    "version"       : "0.0.1",
+    "description"   : "C",
+    "tags"          : [ "HTTP", "WebSocket" ],
+    "authors"       : [ "Tyler" ],
+    "license"       : "Artistic-2.0",
+    "depends"       : [ 
+        "cro", 
+        "DBIish",
+        "Crypt::Argon2"
+     ],
+    "provides"      : {
+        "Crystallarium::MicroAccount": "lib/Crystallarium/MicroAccount.p6",
+        "Crystallarium::DB": "lib/Crystallarium/DB.p6",
+        "Crystallarium": "bin/crystallarium.p6"
+    }
+}
