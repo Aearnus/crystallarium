@@ -6,10 +6,12 @@
     "tags"          : [ "HTTP", "WebSocket" ],
     "authors"       : [ "Tyler" ],
     "license"       : "Artistic-2.0",
+    "source-url"   : "https://github.com/aearnus/crystallarium.git",
     "depends"       : [ 
         "cro", 
         "DBIish",
-        "Crypt::Argon2"
+        "Crypt::Argon2",
+        "Test::META"
      ],
     "provides"      : {
         "Crystallarium::MicroAccount": "lib/Crystallarium/MicroAccount.p6",
