@@ -7,7 +7,7 @@ class Build {
         $db.do(q:to/STMT/);
             CREATE TABLE IF NOT EXISTS users (
                 name varchar(32),
-                password varchar(128)
+                password varchar(143)
             )
             STMT
     }
